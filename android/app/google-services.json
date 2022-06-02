@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "1011728780097",
+    "project_id": "me-first-app-3b285",
+    "storage_bucket": "me-first-app-3b285.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011728780097:android:0fa55ff1c2789729abefc0",
+        "android_client_info": {
+          "package_name": "com.example.animal_catalog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011728780097-eb640fod9a0pc37l6afslm1g2atk1cpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAbiZ0eogDCi5DoJ7L3ArLc93lX1On6Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011728780097-eb640fod9a0pc37l6afslm1g2atk1cpi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1011728780097-02qiv26o61ohh3evftj36k8i9fbeh1f3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.inetra.edinos"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011728780097:android:8af2fe616156ca55abefc0",
+        "android_client_info": {
+          "package_name": "com.example.test_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011728780097-eb640fod9a0pc37l6afslm1g2atk1cpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAbiZ0eogDCi5DoJ7L3ArLc93lX1On6Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011728780097-eb640fod9a0pc37l6afslm1g2atk1cpi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1011728780097-02qiv26o61ohh3evftj36k8i9fbeh1f3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.inetra.edinos"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011728780097:android:1b57fa9255ce4edfabefc0",
+        "android_client_info": {
+          "package_name": "ru.inetra.edinos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011728780097-eb640fod9a0pc37l6afslm1g2atk1cpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAbiZ0eogDCi5DoJ7L3ArLc93lX1On6Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011728780097-eb640fod9a0pc37l6afslm1g2atk1cpi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1011728780097-02qiv26o61ohh3evftj36k8i9fbeh1f3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.inetra.edinos"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
