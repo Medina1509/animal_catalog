@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Animal Catalog'),
     );
   }
 }
@@ -79,6 +79,47 @@ class MyHomePage extends StatelessWidget {
                   _buildListItem(context, snapshot.data.docs[index]),
             );
           }),
+      bottomNavigationBar: BottomAppBar(
+        child: new Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            IconButton(
+              padding: const EdgeInsets.all(25.0),
+              icon: Icon(
+                Icons.home,
+                size: 30.0,
+              ),
+              onPressed: () {},
+            ),
+            PopupMenuButton(
+              padding: const EdgeInsets.all(25.0),
+              icon: Icon(
+                Icons.share,
+                size: 30.0,
+              ),
+              itemBuilder: (context) => [
+                PopupMenuItem(
+                  value: 1,
+                  child: Text('Facebook'),
+                ),
+                PopupMenuItem(
+                  value: 2,
+                  child: Text('Instagram'),
+                ),
+              ],
+            ),
+            IconButton(
+              padding: const EdgeInsets.all(25.0),
+              icon: Icon(
+                Icons.email,
+                size: 30.0,
+              ),
+              onPressed: () {},
+            )
+          ],
+        ),
+      ),
     );
   }
 }
