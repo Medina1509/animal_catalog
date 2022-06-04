@@ -3,6 +3,8 @@ import 'package:http/http.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+import 'feedback.dart';
+
 import 'package:firebase_core/firebase_core.dart';
 
 FirebaseFirestore firestore = FirebaseFirestore.instance;
@@ -61,7 +63,6 @@ class MyHomePage extends StatelessWidget {
   }
 
   @override
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -110,13 +111,15 @@ class MyHomePage extends StatelessWidget {
               ],
             ),
             IconButton(
-              padding: const EdgeInsets.all(25.0),
-              icon: Icon(
-                Icons.email,
-                size: 30.0,
-              ),
-              onPressed: () {},
-            )
+                padding: const EdgeInsets.all(25.0),
+                icon: Icon(
+                  Icons.email,
+                  size: 30.0,
+                ),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => SecondScreen()));
+                })
           ],
         ),
       ),
